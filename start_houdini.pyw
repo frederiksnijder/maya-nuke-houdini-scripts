@@ -80,16 +80,12 @@ environ['PATH'] += (
 environ['HOUDINI_PATH'] = (
 	'C:/ProgramData/Redshift/Plugins/Houdini/15.5.565;&')
 
-# custom Houdini temp dir
-environ['HOUDINI_TEMP_DIR'] = (
-	drive+':/_temp/houdini_temp_dir;')
-
-
 ###############################################################################################################
 # Other usefull variables
 ###############################################################################################################
 
 '''
+HOUDINI_TEMP_DIR
 HOUDINI_MULTITHREADED_COOKING
 HOUDINI_VEX_PATH
 HOUDINI_TOOLBAR_PATH
