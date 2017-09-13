@@ -1,0 +1,7 @@
+proc look_through_currect_selected_object () {
+	string $selection[] = `ls -sl`;
+	string $object = $selection[0];
+	lookThroughModelPanelClipped $object modelPanel4 0.001 1000;
+}
+
+look_through_currect_selected_object ()
