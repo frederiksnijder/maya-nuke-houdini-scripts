@@ -1,0 +1,11 @@
+global proc openImagesFolder()
+
+{
+
+string $s=("images");
+string $t=`workspace -q -rd`;
+string $x=`toNativePath $t`;
+string $f=($x+$s);
+system ("start explorer \""+$f+"\"");
+
+}

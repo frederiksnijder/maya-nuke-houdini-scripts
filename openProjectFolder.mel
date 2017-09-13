@@ -1,0 +1,10 @@
+global proc openProjectFolder()
+
+{
+
+string $t=`workspace -q -rd`;
+string $x=`toNativePath $t`;
+string $f=($x);
+system ("start explorer \""+$f+"\"");
+	
+}
