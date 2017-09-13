@@ -1,2 +1,2 @@
 # maya-nuke-scripts
-A collection of scripts for Autodesk Maya and The Foundry's Nuke.
+A collection of scripts for Autodesk Maya, The Foundry's Nuke and SideFX Houdini.
